@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - FILMCRITIC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="brand">
+                <i class="fas fa-video"></i>
+                <div class="brand-text">
+                    <span class="brand-name">FILMCRITIC</span>
+                    <span class="brand-tagline">Editorial Reviews</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="movies.html" class="nav-item">
+                <i class="fas fa-film"></i>
+                <span>Movies</span>
+            </a>
+            <a href="reviews.html" class="nav-item">
+                <i class="fas fa-star"></i>
+                <span>Reviews</span>
+            </a>
+            <a href="community.html" class="nav-item active">
+                <i class="fas fa-users"></i>
+                <span>Community</span>
+            </a>
+            <a href="about.html" class="nav-item">
+                <i class="fas fa-info-circle"></i>
+                <span>About</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-divider"></div>
+
+        <div class="sidebar-section">
+            <h4 class="sidebar-title">GENRES</h4>
+            <a href="movies.html?genre=action" class="genre-link">Action</a>
+            <a href="movies.html?genre=drama" class="genre-link">Drama</a>
+            <a href="movies.html?genre=scifi" class="genre-link">Sci-Fi</a>
+            <a href="movies.html?genre=horror" class="genre-link">Horror</a>
+            <a href="movies.html?genre=comedy" class="genre-link">Comedy</a>
+            <a href="movies.html?genre=thriller" class="genre-link">Thriller</a>
+        </div>
+
+        <div class="sidebar-footer">
+            <button class="sidebar-btn">
+                <i class="fas fa-pen"></i>
+                Write Review
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+        <!-- Top Bar -->
+        <header class="topbar">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search for movies, reviews, critics...">
+            </div>
+            <div class="topbar-actions">
+                <button class="topbar-btn">
+                    <i class="fas fa-bell"></i>
+                    <span class="badge">3</span>
+                </button>
+                <div class="user-menu">
+                    <img src="https://ui-avatars.com/api/?name=Alex+Morgan&background=FF6B6B&color=fff" alt="User" class="user-avatar">
+                    <span class="user-name">Alex Morgan</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="page-header-content">
+                <h1 class="page-title">Community</h1>
+                <p class="page-subtitle">Join 50,000+ film enthusiasts sharing their passion for cinema</p>
+            </div>
+        </section>
+
+        <!-- Community Stats -->
+        <section class="content-section">
+            <div class="stats-grid-community">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">50,247</div>
+                    <div class="stat-label">Active Members</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <div class="stat-number">125,890</div>
+                    <div class="stat-label">Discussions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number">342,156</div>
+                    <div class="stat-label">User Reviews</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="stat-number">12,456</div>
+                    <div class="stat-label">Movies Rated</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Contributors -->
+        <section class="content-section">
+            <div class="section-header-alt">
+                <h2 class="section-title-alt">Top Contributors This Month</h2>
+                <a href="#" class="view-all-link">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="contributors-grid">
+                <div class="contributor-card">
+                    <div class="contributor-rank">1</div>
+                    <img src="https://ui-avatars.com/api/?name=Emma+Wilson&background=4ECDC4&color=fff" alt="Contributor" class="contributor-avatar-large">
+                    <h3 class="contributor-name">Emma Wilson</h3>
+                    <p class="contributor-role">Film Critic</p>
+                    <div class="contributor-stats">
+                        <div class="contributor-stat">
+                            <span class="stat-value">342</span>
+                            <span class="stat-name">Reviews</span>
+                        </div>
+                        <div class="contributor-stat">
+                            <span class="stat-value">12.5K</span>
+                            <span class="stat-name">Likes</span>
+                        </div>
+                    </div>
+                    <button class="btn-follow">
+                        <i class="fas fa-user-plus"></i>
+                        Follow
+                    </button>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-rank">2</div>
+                    <img src="https://ui-avatars.com/api/?name=Marcus+Chen&background=FF6B6B&color=fff" alt="Contributor" class="contributor-avatar-large">
+                    <h3 class="contributor-name">Marcus Chen</h3>
+                    <p class="contributor-role">Movie Enthusiast</p>
+                    <div class="contributor-stats">
+                        <div class="contributor-stat">
+                            <span class="stat-value">298</span>
+                            <span class="stat-name">Reviews</span>
+                        </div>
+                        <div class="contributor-stat">
+                            <span class="stat-value">9.8K</span>
+                            <span class="stat-name">Likes</span>
+                        </div>
+                    </div>
+                    <button class="btn-follow">
+                        <i class="fas fa-user-plus"></i>
+                        Follow
+                    </button>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-rank">3</div>
+                    <img src="https://ui-avatars.com/api/?name=Sarah+Jones&background=95E1D3&color=fff" alt="Contributor" class="contributor-avatar-large">
+                    <h3 class="contributor-name">Sarah Jones</h3>
+                    <p class="contributor-role">Cinema Lover</p>
+                    <div class="contributor-stats">
+                        <div class="contributor-stat">
+                            <span class="stat-value">267</span>
+                            <span class="stat-name">Reviews</span>
+                        </div>
+                        <div class="contributor-stat">
+                            <span class="stat-value">8.2K</span>
+                            <span class="stat-name">Likes</span>
+                        </div>
+                    </div>
+                    <button class="btn-follow">
+                        <i class="fas fa-user-plus"></i>
+                        Follow
+                    </button>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-rank">4</div>
+                    <img src="https://ui-avatars.com/api/?name=David+Kim&background=FFE66D&color=333" alt="Contributor" class="contributor-avatar-large">
+                    <h3 class="contributor-name">David Kim</h3>
+                    <p class="contributor-role">Action Fan</p>
+                    <div class="contributor-stats">
+                        <div class="contributor-stat">
+                            <span class="stat-value">245</span>
+                            <span class="stat-name">Reviews</span>
+                        </div>
+                        <div class="contributor-stat">
+                            <span class="stat-value">7.5K</span>
+                            <span class="stat-name">Likes</span>
+                        </div>
+                    </div>
+                    <button class="btn-follow">
+                        <i class="fas fa-user-plus"></i>
+                        Follow
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Discussions -->
+        <section class="content-section">
+            <div class="section-header-alt">
+                <h2 class="section-title-alt">Recent Discussions</h2>
+                <div class="filter-tabs">
+                    <button class="filter-tab active">All</button>
+                    <button class="filter-tab">Hot</button>
+                    <button class="filter-tab">New</button>
+                    <button class="filter-tab">Trending</button>
+                </div>
+            </div>
+
+            <div class="discussions-list">
+                <div class="discussion-item">
+                    <img src="https://ui-avatars.com/api/?name=Alex+Johnson&background=FF6B6B&color=fff" alt="User" class="discussion-avatar">
+                    <div class="discussion-content">
+                        <h3 class="discussion-title">What are your thoughts on the new Nolan film?</h3>
+                        <p class="discussion-preview">I just watched it last night and I'm still processing everything. The cinematography was absolutely stunning, but I'm curious what others thought about the pacing...</p>
+                        <div class="discussion-meta">
+                            <span class="discussion-author">Alex Johnson</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-time">2 hours ago</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-category"><i class="fas fa-tag"></i> Discussion</span>
+                        </div>
+                    </div>
+                    <div class="discussion-stats">
+                        <div class="discussion-stat">
+                            <i class="fas fa-comment"></i>
+                            <span>45</span>
+                        </div>
+                        <div class="discussion-stat">
+                            <i class="fas fa-heart"></i>
+                            <span>128</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discussion-item">
+                    <img src="https://ui-avatars.com/api/?name=Maria+Garcia&background=4ECDC4&color=fff" alt="User" class="discussion-avatar">
+                    <div class="discussion-content">
+                        <h3 class="discussion-title">Best horror movies of 2024 - Let's compile a list!</h3>
+                        <p class="discussion-preview">It's been an incredible year for horror. From psychological thrillers to classic slashers, we've had it all. What are your top picks from this year?</p>
+                        <div class="discussion-meta">
+                            <span class="discussion-author">Maria Garcia</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-time">5 hours ago</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-category"><i class="fas fa-tag"></i> Lists</span>
+                        </div>
+                    </div>
+                    <div class="discussion-stats">
+                        <div class="discussion-stat">
+                            <i class="fas fa-comment"></i>
+                            <span>67</span>
+                        </div>
+                        <div class="discussion-stat">
+                            <i class="fas fa-heart"></i>
+                            <span>234</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discussion-item">
+                    <img src="https://ui-avatars.com/api/?name=Tom+Anderson&background=95E1D3&color=fff" alt="User" class="discussion-avatar">
+                    <div class="discussion-content">
+                        <h3 class="discussion-title">Underrated gems you should watch this weekend</h3>
+                        <p class="discussion-preview">I've been diving into some lesser-known films lately and found some absolute masterpieces. Here are my recommendations for movies that deserve more attention...</p>
+                        <div class="discussion-meta">
+                            <span class="discussion-author">Tom Anderson</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-time">1 day ago</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-category"><i class="fas fa-tag"></i> Recommendations</span>
+                        </div>
+                    </div>
+                    <div class="discussion-stats">
+                        <div class="discussion-stat">
+                            <i class="fas fa-comment"></i>
+                            <span>89</span>
+                        </div>
+                        <div class="discussion-stat">
+                            <i class="fas fa-heart"></i>
+                            <span>456</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discussion-item">
+                    <img src="https://ui-avatars.com/api/?name=Lisa+Park&background=FFE66D&color=333" alt="User" class="discussion-avatar">
+                    <div class="discussion-content">
+                        <h3 class="discussion-title">The evolution of superhero films - Are we reaching saturation?</h3>
+                        <p class="discussion-preview">With so many superhero movies being released every year, I'm wondering if we're reaching a saturation point. What do you think about the current state of the genre?</p>
+                        <div class="discussion-meta">
+                            <span class="discussion-author">Lisa Park</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-time">2 days ago</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-category"><i class="fas fa-tag"></i> Opinion</span>
+                        </div>
+                    </div>
+                    <div class="discussion-stats">
+                        <div class="discussion-stat">
+                            <i class="fas fa-comment"></i>
+                            <span>132</span>
+                        </div>
+                        <div class="discussion-stat">
+                            <i class="fas fa-heart"></i>
+                            <span>298</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discussion-item">
+                    <img src="https://ui-avatars.com/api/?name=John+Smith&background=FF6B6B&color=fff" alt="User" class="discussion-avatar">
+                    <div class="discussion-content">
+                        <h3 class="discussion-title">Classic films every cinephile should watch</h3>
+                        <p class="discussion-preview">Building my essential classics watchlist. What are the must-watch films that shaped cinema history? Looking for recommendations across all genres and eras.</p>
+                        <div class="discussion-meta">
+                            <span class="discussion-author">John Smith</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-time">3 days ago</span>
+                            <span class="meta-separator">•</span>
+                            <span class="discussion-category"><i class="fas fa-tag"></i> Help</span>
+                        </div>
+                    </div>
+                    <div class="discussion-stats">
+                        <div class="discussion-stat">
+                            <i class="fas fa-comment"></i>
+                            <span>156</span>
+                        </div>
+                        <div class="discussion-stat">
+                            <i class="fas fa-heart"></i>
+                            <span>567</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Community CTA -->
+        <section class="content-section">
+            <div class="join-community-box">
+                <div class="join-community-content">
+                    <i class="fas fa-users-cog join-icon"></i>
+                    <h2>Start Your Journey Today</h2>
+                    <p>Create an account to join discussions, write reviews, and connect with fellow film lovers</p>
+                    <div class="join-actions">
+                        <button class="btn btn-primary">
+                            <i class="fas fa-user-plus"></i>
+                            Create Account
+                        </button>
+                        <button class="btn btn-outline">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
