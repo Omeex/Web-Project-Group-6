@@ -1,304 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - FILMCRITIC</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UWU Academy</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Sidebar Navigation -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <div class="brand">
-                <i class="fas fa-globe"></i>
-                <div class="brand-text">
-                    <span class="brand-name">UWU REVIEWS</span>
-                    <span class="brand-tagline">Editorial Reviews</span>
-                </div>
-            </div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">UWU Academy</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#login">Log In</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>UVA WELLASSA UNIVERSITY</h1>
+          <p>A platform offering reliable notes, guides, and study resources for A/L learners. Built to help students understand concepts easily and prepare with confidence.</p>
+          <div class="cta-row">
+            <a class="btn" href="#courses">Find Notes</a>
+            <a class="btn outline" href="#signup">Sign Up Now</a>
+          </div>
         </div>
-
-        <nav class="sidebar-nav">
-            <a href="index.html" class="nav-item active">
-                <i class="fas fa-home"></i>
-                <span>Home</span>
-            </a>
-            <a href="movies.html" class="nav-item">
-                <i class="fas fa-film"></i>
-                <span>Movies</span>
-            </a>
-            <a href="reviews.html" class="nav-item">
-                <i class="fas fa-star"></i>
-                <span>Reviews</span>
-            </a>
-            <a href="community.html" class="nav-item">
-                <i class="fas fa-users"></i>
-                <span>Community</span>
-            </a>
-            <a href="about.html" class="nav-item">
-                <i class="fas fa-info-circle"></i>
-                <span>About</span>
-            </a>
-        </nav>
-
-        <div class="sidebar-divider"></div>
-
-        <div class="sidebar-section">
-            <h4 class="sidebar-title">GENRES</h4>
-            <a href="movies.html?genre=action" class="genre-link">Action</a>
-            <a href="movies.html?genre=drama" class="genre-link">Drama</a>
-            <a href="movies.html?genre=scifi" class="genre-link">Sci-Fi</a>
-            <a href="movies.html?genre=horror" class="genre-link">Horror</a>
-            <a href="movies.html?genre=comedy" class="genre-link">Comedy</a>
-            <a href="movies.html?genre=thriller" class="genre-link">Thriller</a>
+        <div class="hero-card">
+          <h3>Choose Your A/L Stream</h3>
+          <div class="streams">
+            <div class="stream">
+              <h4>Science Stream</h4>
+              <p>Comprehensive A/L Science Stream resources covering Mathematics and Biology with clear, exam-focused notes.</p>
+            </div>
+            <div class="stream">
+              <h4>Commerce Stream</h4>
+              <p>A/L Commerce Stream resources covering Accounting, Business Studies, and Economics with clear, exam-focused notes.</p>
+            </div>
+            <div class="stream">
+              <h4>Technology Stream</h4>
+              <p>Access high-quality A/L Engineering Technology and Bio System Technology materials for easy learning and exam success.</p>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <div class="sidebar-footer">
-            <button class="sidebar-btn">
-                <i class="fas fa-pen"></i>
-                Write Review
-            </button>
+    <section id="features" class="container features">
+      <div class="feature">
+        <h3>Past Papers</h3>
+        <p>Access previous years’ A/L exam papers to practice and understand exam patterns.</p>
+      </div>
+      <div class="feature">
+        <h3>Model Papers</h3>
+        <p>Solve model papers designed to help you prepare effectively and boost exam confidence.</p>
+      </div>
+      <div class="feature">
+        <h3>Online Library</h3>
+        <p>E-Books & Notes across all streams for easy, exam-focused learning.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Us</h2>
+      <p>UWU Academy is developed by dedicated undergraduates of Uva Wellassa University to help A/L learners prepare with confidence and clarity.</p>
+    </section>
+
+    <section id="testimonials" class="container testimonials">
+      <h2>Student Reviews</h2>
+      <div class="cards">
+        <div class="card">
+          <p>“Very helpful!”</p>
+          <span class="author">Suraj - Student</span>
         </div>
-    </aside>
+        <div class="card">
+          <p>“Easy to understand”</p>
+          <span class="author">Nadeeka - Student</span>
+        </div>
+        <div class="card">
+          <p>“Boosted my confidence”</p>
+          <span class="author">Chathura - Student</span>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <!-- Main Content -->
-    <main class="main-wrapper">
-        <!-- Top Bar -->
-        <header class="topbar">
-            <div class="search-bar">
-                <i class="fas fa-search"></i>
-                <input type="text" placeholder="Search for movies, reviews, critics...">
-            </div>
-            <div class="topbar-actions">
-                <button class="topbar-btn">
-                    <i class="fas fa-bell"></i>
-                    <span class="badge">3</span>
-                </button>
-                <div class="user-menu">
-                    <img src="https://ui-avatars.com/api/?name=Alex+Morgan&background=FF6B6B&color=fff" alt="User" class="user-avatar">
-                    <span class="user-name">Alex Morgan</span>
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-            </div>
-        </header>
-
-        <!-- Hero Feature -->
-        <section class="hero-feature">
-            <div class="feature-grid">
-                <div class="feature-main">
-                    <div class="feature-image">
-                        <img src="https://images.unsplash.com/photo-1733232073397-80fb13ef3212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMHdhbGx8ZW58MXx8fHwxNzY0NjAxODY1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Featured">
-                        <div class="feature-overlay"></div>
-                        <div class="feature-badge">EDITOR'S PICK</div>
-                    </div>
-                    <div class="feature-content">
-                        <div class="feature-meta">
-                            <span class="meta-tag">Drama</span>
-                            <span class="meta-dot">•</span>
-                            <span>2024</span>
-                            <span class="meta-dot">•</span>
-                            <span>2h 45m</span>
-                        </div>
-                        <h1 class="feature-title">The Last Frontier</h1>
-                        <p class="feature-description">
-                            A masterful exploration of human resilience and the cost of ambition. Director Sarah Chen delivers a visually stunning epic that challenges our perception of what it means to be human.
-                        </p>
-                        <div class="feature-rating">
-                            <div class="rating-score">9.2</div>
-                            <div class="rating-info">
-                                <div class="stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                                <span class="rating-count">Based on 2,847 reviews</span>
-                            </div>
-                        </div>
-                        <div class="feature-actions">
-                            <a href="reviews.html" class="btn btn-primary">
-                                <i class="fas fa-book-open"></i>
-                                Read Full Review
-                            </a>
-                            <button class="btn btn-outline">
-                                <i class="fas fa-plus"></i>
-                                Add to Watchlist
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-sidebar">
-                    <h3 class="sidebar-feature-title">TRENDING NOW</h3>
-                    
-                    <div class="trending-item">
-                        <div class="trending-number">1</div>
-                        <div class="trending-poster">
-                            <img src="https://images.unsplash.com/photo-1661343320593-127da7a9cc13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWxtJTIwcmVlbCUyMHZpbnRhZ2V8ZW58MXx8fHwxNzY0NTQ2NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Movie">
-                        </div>
-                        <div class="trending-info">
-                            <h4>Neon Shadows</h4>
-                            <div class="trending-meta">
-                                <i class="fas fa-star"></i>
-                                <span>8.7</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="trending-item">
-                        <div class="trending-number">2</div>
-                        <div class="trending-poster">
-                            <img src="https://images.unsplash.com/photo-1517486518908-97a5f91b325f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaW5lbWElMjBpbnRlcmlvciUyMGx1eHVyeXxlbnwxfHx8fDE3NjQ2NjQ5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Movie">
-                        </div>
-                        <div class="trending-info">
-                            <h4>The Silent Hour</h4>
-                            <div class="trending-meta">
-                                <i class="fas fa-star"></i>
-                                <span>8.4</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="trending-item">
-                        <div class="trending-number">3</div>
-                        <div class="trending-poster">
-                            <img src="https://images.unsplash.com/photo-1733232073397-80fb13ef3212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMHdhbGx8ZW58MXx8fHwxNzY0NjAxODY1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Movie">
-                        </div>
-                        <div class="trending-info">
-                            <h4>Crimson Dreams</h4>
-                            <div class="trending-meta">
-                                <i class="fas fa-star"></i>
-                                <span>9.1</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="trending-item">
-                        <div class="trending-number">4</div>
-                        <div class="trending-poster">
-                            <img src="https://images.unsplash.com/photo-1661343320593-127da7a9cc13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWxtJTIwcmVlbCUyMHZpbnRhZ2V8ZW58MXx8fHwxNzY0NTQ2NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Movie">
-                        </div>
-                        <div class="trending-info">
-                            <h4>Echoes of Tomorrow</h4>
-                            <div class="trending-meta">
-                                <i class="fas fa-star"></i>
-                                <span>7.9</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Latest Reviews Section -->
-        <section class="content-section">
-            <div class="section-header-alt">
-                <h2 class="section-title-alt">Latest Reviews</h2>
-                <a href="reviews.html" class="view-all-link">View All <i class="fas fa-arrow-right"></i></a>
-            </div>
-
-            <div class="reviews-grid">
-                <!-- Review Card 1 -->
-                <article class="review-article">
-                    <div class="article-image">
-                        <img src="https://images.unsplash.com/photo-1517486518908-97a5f91b325f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaW5lbWElMjBpbnRlcmlvciUyMGx1eHVyeXxlbnwxfHx8fDE3NjQ2NjQ5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Review">
-                        <div class="article-score">8.5</div>
-                    </div>
-                    <div class="article-body">
-                        <div class="article-category">Sci-Fi Thriller</div>
-                        <h3 class="article-title">Beyond The Stars: A Cosmic Journey</h3>
-                        <p class="article-excerpt">
-                            An ambitious space odyssey that succeeds in blending hard science fiction with deeply personal human drama...
-                        </p>
-                        <div class="article-footer">
-                            <div class="author-info">
-                                <img src="https://ui-avatars.com/api/?name=Emma+Wilson&background=4ECDC4&color=fff" alt="Author" class="author-avatar">
-                                <div>
-                                    <div class="author-name">Emma Wilson</div>
-                                    <div class="article-date">Dec 1, 2024</div>
-                                </div>
-                            </div>
-                            <button class="bookmark-btn">
-                                <i class="far fa-bookmark"></i>
-                            </button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Review Card 2 -->
-                <article class="review-article">
-                    <div class="article-image">
-                        <img src="https://images.unsplash.com/photo-1733232073397-80fb13ef3212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMHdhbGx8ZW58MXx8fHwxNzY0NjAxODY1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Review">
-                        <div class="article-score">9.0</div>
-                    </div>
-                    <div class="article-body">
-                        <div class="article-category">Drama</div>
-                        <h3 class="article-title">The Art of Silence: When Words Fail</h3>
-                        <p class="article-excerpt">
-                            A masterclass in visual storytelling that proves dialogue is optional when you have a director this talented...
-                        </p>
-                        <div class="article-footer">
-                            <div class="author-info">
-                                <img src="https://ui-avatars.com/api/?name=Marcus+Chen&background=FF6B6B&color=fff" alt="Author" class="author-avatar">
-                                <div>
-                                    <div class="author-name">Marcus Chen</div>
-                                    <div class="article-date">Nov 30, 2024</div>
-                                </div>
-                            </div>
-                            <button class="bookmark-btn">
-                                <i class="far fa-bookmark"></i>
-                            </button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Review Card 3 -->
-                <article class="review-article">
-                    <div class="article-image">
-                        <img src="https://images.unsplash.com/photo-1661343320593-127da7a9cc13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWxtJTIwcmVlbCUyMHZpbnRhZ2V8ZW58MXx8fHwxNzY0NTQ2NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Review">
-                        <div class="article-score">7.8</div>
-                    </div>
-                    <div class="article-body">
-                        <div class="article-category">Action</div>
-                        <h3 class="article-title">High Octane: Speed and Spectacle</h3>
-                        <p class="article-excerpt">
-                            Pure adrenaline from start to finish. While the plot is thin, the action sequences are nothing short of spectacular...
-                        </p>
-                        <div class="article-footer">
-                            <div class="author-info">
-                                <img src="https://ui-avatars.com/api/?name=Sarah+Jones&background=95E1D3&color=fff" alt="Author" class="author-avatar">
-                                <div>
-                                    <div class="author-name">Sarah Jones</div>
-                                    <div class="article-date">Nov 28, 2024</div>
-                                </div>
-                            </div>
-                            <button class="bookmark-btn">
-                                <i class="far fa-bookmark"></i>
-                            </button>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Community Section -->
-        <section class="content-section community-section">
-            <div class="community-banner">
-                <div class="community-content">
-                    <i class="fas fa-users community-icon"></i>
-                    <h2>Join Our Community of 50K+ Film Enthusiasts</h2>
-                    <p>Share your reviews, discover new films, and connect with fellow movie lovers</p>
-                    <a href="community.html" class="btn btn-light">
-                        <i class="fas fa-user-plus"></i>
-                        Join Now
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>UWU Academy</h4>
+        <p>Find notes, past papers and guides to help you succeed.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#courses">Courses</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Developers • Our University</p>
+      </div>
+    </div>
+    <div class="copyright">© 2025 UWU Academy</div>
+  </footer>
 </body>
 </html>
-
