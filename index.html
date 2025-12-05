@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>UWU Academy</title>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,7 +11,8 @@
     <nav>
       <a href="#">Home</a>
       <a href="#">About Us</a>
-      <a href="#">Courses</a>
+      <a href="#lib">Library</a>
+      <a href="#rev">Reviews</a>
       <button class="login">Log In</button>
     </nav>
   </div>
@@ -44,10 +43,15 @@
       <h3>Technology Stream</h3>
       <p>Access high-quality A/L Engineering Technology and Bio System Technology materials for easy learning and exam success.</p>
     </div>
+    <div class="stream">
+      <img src="img/8.avif">
+      <h3>Art Stream</h3>
+      <p>A/L Arts Stream resources with clear, exam-focused notes for subjects like Sinhala, History, and Political Science.</p>
+    </div>
   </div>
 </section>
-
-<section class="container library">
+<hr>
+<section id="lib" class="container library">
   <h2>Online Library</h2>
   <div class="lib-row">
     <div class="left">
@@ -71,7 +75,7 @@
     </div>
   </div>
 </section>
-
+<hr>
 <section class="container">
   <h2>Past Papers</h2>
   <div class="papers-row">
@@ -89,20 +93,44 @@
   </div>
 </section>
 
-<section class="container reviews">
-  <h2>Student Reviews</h2>
-  <div class="review-row">
-    <div class="review-card"><p>“Very helpful!”</p><span>Suraj - Student</span></div>
-    <div class="review-card"><p>“Easy to understand”</p><span>Nadeeka - Student</span></div>
-    <div class="review-card"><p>“Boosted my confidence”</p><span>Chathura - Student</span></div>
-  </div>
-</section>
+<section id="rev" class="reviews-section">
+  <h2>Student Reviews</h2><br>
 
-<section class="start container">
-  <h2>Start Learning</h2>
-  <div class="start-row">
-    <button class="btn">FIND NOTES</button>
-    <button class="light">Sign Up</button>
+  <div class="reviews-container">
+
+      <div class="review-card">
+          <p class="review-text">“Very helpful!”</p>
+          <div class="review-profile">
+              <img src="img/user.jpg" alt="Suraj">
+              <div>
+                  Suraj Yapa<br>
+                  <span>Student</span>
+              </div>
+          </div>
+      </div>
+
+      <div class="review-card">
+          <p class="review-text">“Easy to understand”</p>
+          <div class="review-profile">
+              <img src="img/user.jpg" alt="Nadeeka">
+              <div>
+                  Nadeeka<br>
+                  <span>Student</span>
+              </div>
+          </div>
+      </div>
+
+      <div class="review-card">
+          <p class="review-text">“Boosted my confidence”</p>
+          <div class="review-profile">
+              <img src="img/user.jpg" alt="Chathura">
+              <div>
+                  Chathura<br>
+                  <span>Student</span>
+              </div>
+          </div>
+      </div>
+
   </div>
 </section>
 
