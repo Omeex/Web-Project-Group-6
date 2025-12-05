@@ -31,3 +31,6 @@ nav a{text-decoration:none;margin-right:20px;color:#000}
 .review-profile img {width: 40px;height: 40px;border-radius: 50%;}
 
 span{font-size: 10px;color: grey;}
+
+.us img{display: block;
+    margin: 0 auto;}
