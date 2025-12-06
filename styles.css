@@ -20,7 +20,8 @@ nav a{text-decoration:none;margin-right:20px;color:#000}
 .paper img{width:500px;height: 250px ;border-radius:14px}
 
 .start-row{display:flex;gap:10px;margin-top:10px}
-.footer-top{display:flex;justify-content:space-between;margin-top:40px;padding:20px 0;border-top:3px solid #eee}
+footer{background-color: #e5e5e5;padding: 50px 50px 50px 50px;}
+.footer-top{display:flex;justify-content:space-between;}
 .links a{display:block;text-decoration:none;color:#000;margin-bottom:6px;}
 
 
