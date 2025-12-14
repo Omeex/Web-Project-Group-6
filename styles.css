@@ -46,3 +46,20 @@ span{font-size: 10px;color: grey;} /*inline container used to style or manipulat
 footer{background-color: #e5e5e5;padding: 50px 50px 50px 50px;}
 .footer-top{display:flex;justify-content:space-between;}
 .links a{display:block;text-decoration:none;color:#000;margin-bottom:6px;}
+
+/*Commerce Page*/
+.ho2 {display: flex;gap: 40px;}
+.ho2 p{padding-top: 25px;text-align: right;}
+.ho2 img{width: 300px;margin-top: 30px;border-radius: 12px;}
+
+/*Subjects*/
+.sub-row{display:flex;gap:15px;margin-top:20px;}
+.sub h2{text-align: center;}
+.sub img{width:220px;height: 100px;border-radius:12px}
+.sub h3{margin:10px 0 4px;text-align: center;}
+
+/*description*/
+.desk h1{font-size:32px;margin-bottom:10px;text-align: center;}
+.desk p{max-width:1000px;color:#444;}
+
+.tab {display: flex;gap: 800px;}
