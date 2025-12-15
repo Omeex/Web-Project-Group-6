@@ -14,7 +14,7 @@ nav a{text-decoration:none;margin-right:20px;color:#000}
 .btn{padding:10px 20px;background:#000;color:#fff;border:0;border-radius:8px}
 .hero-img{width:100%;border-radius:20px;margin-top:20px}
 
-/*stream*/
+/*streams*/
 .streams-container{display:flex;gap:30px;margin-top:20px}
 .stream-column{display:flex;flex-direction:column;gap:20px;flex:1}
 .stream{border:1px solid #e0e0e0;border-radius:12px;padding:15px;background:white;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
