@@ -1,0 +1,224 @@
+h2,h1{color: #8F3D1E;}
+
+/*Genaral*/
+body{font-family:Arial;margin:0;background:#FFF8EF;color:#111}
+.container{max-width:1100px;margin:auto;padding:20px}
+
+/*header*/
+.top{padding: 20px 0 0 0;}
+.nav-row{display:flex;justify-content:space-between;align-items:center}
+nav a{text-decoration:none;margin-right:20px;color:#000}
+.login{padding:6px 14px;border:1px solid #000;background:#000;color:#fff;border-radius:6px}
+
+/*description*/
+.hero h1{font-size:32px;margin-bottom:10px}
+.hero p{max-width:600px;color:#444}
+.btn{padding:10px 20px;background:#000;color:#fff;border:0;border-radius:8px}
+.hero-img{width:100%;border-radius:20px;margin-top:20px}
+
+/*streams*/
+.streams-container{display:flex;gap:30px;margin-top:20px}
+.stream-column{display:flex;flex-direction:column;gap:20px;flex:1}
+.stream{border:1px solid #e0e0e0;border-radius:12px;padding:15px;background:white;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+.stream:hover {transform: translateY(-5px);box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
+.stream img{width:100%;height:150px;border-radius:8px;object-fit:cover}
+.stream h3{margin:10px 0 4px;text-align: center;}
+.stream a{color: rgb(114, 0, 0);text-decoration: none;}
+.stream p{color: #aaa;text-align: center;}
+
+
+/*About*/
+.us{background-color: #eee;border-radius: 20px;padding: 40px;}
+
+/*footer*/
+.start-row{display:flex;gap:10px;margin-top:10px}
+footer{background-color: #e5e5e5;padding: 50px 50px 50px 50px;}
+.footer-top{display:flex;justify-content:space-between;}
+.links a{display:block;text-decoration:none;color:#000;margin-bottom:6px;}
+
+/*Commerce Page*/
+.ho2 {display: flex;gap: 40px;}
+.ho2 p{padding-top: 15px;text-align: left;}
+.ho2 img{width: 400px;margin-top: 20px;border-radius: 12px;}
+
+/*Subjects*/
+.sub-row{display:flex;gap:15px;margin-top:20px;}
+.sub h2{text-align: center;}
+.sub img{width:220px;height: 100px;border-radius:12px}
+.sub h3{margin:10px 0 4px;text-align: center;}
+
+/*description*/
+.desk h1{font-size:32px;margin-bottom:10px;text-align: center;}
+.desk p{max-width:1000px;color:#444;}
+
+.tab {display: flex;gap: 800px;}
+/* Navigation Menu Styles */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.nav-item {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item:hover {
+    background-color: #f8f9fa;
+}
+
+.nav-item.active {
+    border-bottom-color: #8F3D1E;
+    background-color: #f8f9fa;
+}
+
+.nav-item i {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.nav-item .nav-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Content Section Styles */
+.content-container {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    min-height: 500px;
+    animation: fadeIn 0.5s ease;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.section-title {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+    font-size: 1.8rem;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.section-text {
+    line-height: 1.8;
+    color: #555;
+}
+
+.section-image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    height: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Subject-specific colors and styles */
+#accountancy-section .section-title {
+    color: #e74c3c;
+}
+#accountancy-section .nav-item.active {
+    border-bottom-color: #e74c3c;
+}
+#accountancy-section .section-image {
+    background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');
+}
+
+#economics-section .section-title {
+    color: #3498db;
+}
+#economics-section .nav-item.active {
+    border-bottom-color: #3498db;
+}
+#economics-section .section-image {
+    background-image: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');
+}
+
+#business-section .section-title {
+    color: #2ecc71;
+}
+#business-section .nav-item.active {
+    border-bottom-color: #2ecc71;
+}
+#business-section .section-image {
+    background-image: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');
+}
+
+#ict-section .section-title {
+    color: #9b59b6;
+}
+#ict-section .nav-item.active {
+    border-bottom-color: #9b59b6;
+}
+#ict-section .section-image {
+    background-image: url('https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+    }
+    
+    .nav-item {
+        min-width: 100%;
+    }
+    
+    .section-image {
+        height: 200px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+ul li{color: #7f8c8d;font-size: 10px;}
+ul a{color: #000000;font-size: 20px;text-decoration: none;font-weight: bolder;}

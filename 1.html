@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Notes</title>
+</head>
+<body>
+
+<h2>Upload Note</h2>
+
+<form id="uploadForm">
+  <input id="uploader" placeholder="Uploader Name" required><br><br>
+
+  <select id="stream" required>
+    <option value="">Select Stream</option>
+    <option value="Physical Science">Physical Science</option>
+    <option value="Biological Science">Biological Science</option>
+    <option value="Commerce">Commerce</option>
+    <option value="Arts">Arts</option>
+    <option value="Technology">Technology</option>
+  </select><br><br>
+
+  <select id="subject" required>
+    <option value="">Select Subject</option>
+  </select><br><br>
+
+  <input id="lessonNo" type="number" placeholder="Lesson No (optional)"><br><br>
+  <input id="lessonName" placeholder="Lesson Name" required><br><br>
+  <input id="link" placeholder="Google Drive PDF Link" required><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script type="module" src="js/app1.js"></script>
+
+</body>
+</html>
