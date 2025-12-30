@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sri Lanka Travel Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Sri Lanka Travel Guide</span>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="travel-tips.html">Travel Tips</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1593693399746-5f4d179d7c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Have questions about traveling to Sri Lanka? Get in touch with our team for personalized advice and travel recommendations.</p>
+        </div>
+    </section>
+
+    <!-- Back Button -->
+    <div class="container">
+        <a href="index.html" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </div>
+
+    <!-- Contact Content -->
+    <section class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 4rem;">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="general">General Inquiry</option>
+                            <option value="itinerary">Itinerary Planning</option>
+                            <option value="accommodation">Accommodation Advice</option>
+                            <option value="transport">Transportation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <!-- Contact Information -->
+            <div>
+                <div class="content-section">
+                    <h2><i class="fas fa-info-circle" style="color: #1a5f23; margin-right: 10px;"></i> Contact Information</h2>
+                    
+                    <div style="margin-top: 1.5rem;">
+                        <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                            <i class="fas fa-map-marker-alt" style="color: #1a5f23; font-size: 1.2rem; margin-right: 15px; margin-top: 5px;"></i>
+                            <div>
+                                <h3>Our Office</h3>
+                                <p>Sri Lanka Travel Guide<br>
+                                123 Galle Road<br>
+                                Colombo 03, Sri Lanka</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                            <i class="fas fa-phone" style="color: #1a5f23; font-size: 1.2rem; margin-right: 15px; margin-top: 5px;"></i>
+                            <div>
+                                <h3>Phone Numbers</h3>
+                                <p>+94 11 234 5678 (Office)<br>
+                                +94 77 123 4567 (Mobile/WhatsApp)</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                            <i class="fas fa-envelope" style="color: #1a5f23; font-size: 1.2rem; margin-right: 15px; margin-top: 5px;"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@srilankatravel.com<br>
+                                support@srilankatravel.com</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                            <i class="fas fa-clock" style="color: #1a5f23; font-size: 1.2rem; margin-right: 15px; margin-top: 5px;"></i>
+                            <div>
+                                <h3>Office Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                Saturday: 9:00 AM - 1:00 PM<br>
+                                Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="content-section" style="margin-top: 2rem;">
+                    <h2><i class="fas fa-share-alt" style="color: #1a5f23; margin-right: 10px;"></i> Connect With Us</h2>
+                    
+                    <div style="margin-top: 1.5rem;">
+                        <p>Follow us on social media for travel inspiration, tips, and updates about Sri Lanka.</p>
+                        
+                        <div class="social-icons" style="justify-content: flex-start; margin-top: 1.5rem;">
+                            <a href="#" style="background-color: #3b5998;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" style="background-color: #1da1f2;"><i class="fab fa-twitter"></i></a>
+                            <a href="#" style="background-color: #e1306c;"><i class="fab fa-instagram"></i></a>
+                            <a href="#" style="background-color: #ff0000;"><i class="fab fa-youtube"></i></a>
+                            <a href="#" style="background-color: #0077b5;"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FAQ -->
+        <div class="content-section">
+            <h2><i class="fas fa-question-circle" style="color: #1a5f23; margin-right: 10px;"></i> Frequently Asked Questions</h2>
+            
+            <div style="margin-top: 1.5rem;">
+                <div style="margin-bottom: 1.5rem;">
+                    <h3>How far in advance should I plan my trip to Sri Lanka?</h3>
+                    <p>We recommend planning at least 3-4 months in advance, especially if you're traveling during peak season (December to March). This allows time to secure the best accommodations and plan your itinerary.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <h3>Do you offer customized tour packages?</h3>
+                    <p>Yes, we can help create personalized itineraries based on your interests, budget, and travel dates. Contact us with your requirements, and our travel experts will design a trip tailored just for you.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <h3>What is the best way to get around Sri Lanka?</h3>
+                    <p>The best transportation depends on your itinerary and budget. For first-time visitors, we often recommend a combination of private driver for longer distances and trains for scenic routes. Check our <a href="travel-tips.html#getting-around">Travel Tips</a> page for detailed information.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <h3>Is Sri Lanka safe for solo female travelers?</h3>
+                    <p>Sri Lanka is generally safe for solo female travelers. However, it's important to dress modestly, especially in rural areas and religious sites, and take normal precautions as you would when traveling anywhere. Many women travel solo in Sri Lanka without issues.</p>
+                </div>
+                
+                <div>
+                    <h3>How long should I spend in Sri Lanka?</h3>
+                    <p>We recommend a minimum of 10 days to experience the highlights. Two weeks allows for a more relaxed pace and the opportunity to explore more regions. With three weeks or more, you can really immerse yourself in the culture and visit off-the-beaten-path destinations.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Newsletter -->
+        <div class="content-section">
+            <h2><i class="fas fa-newspaper" style="color: #1a5f23; margin-right: 10px;"></i> Subscribe to Our Newsletter</h2>
+            
+            <div style="margin-top: 1.5rem;">
+                <p>Get travel tips, destination highlights, and special offers delivered to your inbox.</p>
+                
+                <form style="display: flex; gap: 10px; margin-top: 1rem;">
+                    <input type="email" placeholder="Your email address" style="flex: 1; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+                    <button type="submit" class="submit-btn" style="padding: 12px 25px;">Subscribe</button>
+                </form>
+                
+                <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sri Lanka Travel Guide</h3>
+                    <p>Your comprehensive guide to exploring the beautiful island of Sri Lanka. Discover hidden gems, cultural treasures, and natural wonders.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="culture.html">Culture & Heritage</a></li>
+                        <li><a href="food.html">Local Cuisine</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Travel Info</h3>
+                    <ul>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                        <li><a href="travel-tips.html#best-time">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html#getting-around">Getting Around</a></li>
+                        <li><a href="travel-tips.html#accommodation">Accommodation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Colombo, Sri Lanka</li>
+                        <li><i class="fas fa-phone"></i> +94 11 234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@srilankatravel.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Sri Lanka Travel Guide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

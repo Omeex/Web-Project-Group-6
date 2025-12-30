@@ -1,189 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-<title>UWU Academy</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka Travel Guide | Paradise Island</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <!--Header-->
-<header class="top">
-  <div class="container nav-row">
-    <div class="logo">UWU Academy</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="#uss">About Us</a>
-      <a href="#al">A/L</a>
-      <a href="#lib">Library</a>
-      <a href="#pp">Past Papers</a>
-      <button class="login"><a style="color: white;" href="Sign In.html" target="_blank">Log In</a></button>
-    </nav>
-  </div>
-</header>
-
- <!--Description-->
-<section class="hero container" style="padding: 0 20px 20px 20px;">
-  <h1>UVA WELLASSA UNIVERSITY</h1>
-  <p>A platform offering reliable notes, guides, and study resources for A/L learners.Built to help students understand concepts easily and prepare with confidence.Developed by dedicated undergraduates of Uva Wellassa University.</p>
-  <button class="btn">FIND NOTES</button>
-  <img src="img/1.png" class="hero-img">
-</section>
-
- <!--Streams-->
-<section class="container" id="al">
-  <h2>Choose Your A/L Stream</h2>
-  <div class="streams-container">
-    <!-- Left Column -->
-    <div class="stream-column">
-      <div class="stream">
-        <img src="img/2.1.png">
-        <h3>Physical Science Stream</h3>
-        <p>Combined Mathematics ,Physics,Chemistry,ICT</p>
-      </div>
-      <div class="stream">
-        <img src="img/4.png">
-        <h3><a href="Commere.html" target="_blank">Commerce Stream</a></h3>
-        <p>Economics, Business Studies, Accountancy, ICT</p>
-        <p></p>
-      </div>
-      <div class="stream">
-        <img src="img/6.png">
-        <h3>Arts Stream</h3>
-        <p>Languages, Geography, Political Science, Music, Religion</p>
-        <p></p>
-      </div>
-    </div>
-
-    <!-- Right Column -->
-    <div class="stream-column">
-      <div class="stream">
-        <img src="img/2.png" alt="1">
-        <h3><a href="" target="_blank">Biological Science Stream</a></h3>
-        <p>Biology, Chemistry, Physics, Agricultural Science</p>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Sri Lanka Travel Guide</span>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="travel-tips.html">Travel Tips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-      <div class="stream">
-        <img src="img/5.png">
-        <h3>Technology Stream</h3>
-        <p>Eng Tech, Biosystems Techn, Science for Technology, ICT</p>
-      </div>
-      
-    </div>
-  </div>
-</section>
-<hr>
+    </header>
 
-<!--Libraray-->
-<section id="lib" class="container library">
-  <h2>Online Library</h2>
-  <div class="lib-row">
-    <div class="left">
-      <h3>E-Books & Notes</h3>
-      <p>Access digital textbooks and A/L notes across all streams for easy, exam-focused learning.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Discover the Wonder of Sri Lanka</h1>
+            <p>Explore ancient cities, pristine beaches, lush tea plantations, and vibrant wildlife in this tropical paradise. Your ultimate guide to the Pearl of the Indian Ocean.</p>
+            <a href="destinations.html" class="cta-button">Explore Destinations</a>
+        </div>
+    </section>
 
-      <h3>Past Papers & Practice</h3>
-      <p>Solve previous years’ papers and practice questions to boost skills and exam confidence.</p>
+    <!-- Top Destinations -->
+    <section class="container" id="destinations">
+        <h2 class="section-title">Top Destinations in Sri Lanka</h2>
+        <div class="destinations-grid">
+            <!-- Sigiriya -->
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1578665142664-855e43f6b2d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Sigiriya Rock Fortress" class="destination-img">
+                <div class="destination-info">
+                    <h3>Sigiriya Rock Fortress</h3>
+                    <p>Ancient rock fortress with stunning frescoes and gardens. A UNESCO World Heritage Site dating back to the 5th century.</p>
+                    <a href="sigiriya.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Ella -->
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1558862106-65bb6cdc8cbf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Ella" class="destination-img">
+                <div class="destination-info">
+                    <h3>Ella</h3>
+                    <p>Mountain village with stunning views and hiking trails. Famous for Nine Arches Bridge and tea plantations.</p>
+                    <a href="ella.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Galle Fort -->
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1559561735-dc8c3b7f1d1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Galle Fort" class="destination-img">
+                <div class="destination-info">
+                    <h3>Galle Fort</h3>
+                    <p>Historic Dutch fort with colonial architecture and boutique shops. A UNESCO World Heritage coastal fortress.</p>
+                    <a href="destinations.html#galle" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <h3>Reference & Guides</h3>
-      <p>Explore supplementary guides and model answers to deepen understanding and excel in exams.</p>
+    <!-- Why Visit Sri Lanka -->
+    <section class="container">
+        <h2 class="section-title">Why Visit Sri Lanka?</h2>
+        <div class="content-section">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div>
+                    <h3><i class="fas fa-umbrella-beach" style="color: #1a5f23; margin-right: 10px;"></i> Beautiful Beaches</h3>
+                    <p>Sri Lanka boasts over 1,300 km of coastline with pristine beaches, perfect for swimming, surfing, and relaxation.</p>
+                </div>
+                <div>
+                    <h3><i class="fas fa-mountain" style="color: #1a5f23; margin-right: 10px;"></i> Stunning Landscapes</h3>
+                    <p>From misty mountains and tea plantations to lush rainforests and national parks, the scenery is breathtaking.</p>
+                </div>
+                <div>
+                    <h3><i class="fas fa-history" style="color: #1a5f23; margin-right: 10px;"></i> Rich History</h3>
+                    <p>With over 2,500 years of recorded history, Sri Lanka has eight UNESCO World Heritage Sites to explore.</p>
+                </div>
+                <div>
+                    <h3><i class="fas fa-utensils" style="color: #1a5f23; margin-right: 10px;"></i> Delicious Cuisine</h3>
+                    <p>Sri Lankan food is flavorful and aromatic, featuring rice, curry, seafood, and exotic spices.</p>
+                </div>
+                <div>
+                    <h3><i class="fas fa-paw" style="color: #1a5f23; margin-right: 10px;"></i> Amazing Wildlife</h3>
+                    <p>Home to leopards, elephants, whales, and hundreds of bird species in numerous national parks.</p>
+                </div>
+                <div>
+                    <h3><i class="fas fa-smile" style="color: #1a5f23; margin-right: 10px;"></i> Friendly People</h3>
+                    <p>Sri Lankans are known for their warm hospitality and welcoming nature towards visitors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div class="btn-row">
-        <button class="dark">Access Now</button>
-        <button class="light">Sign Up Now</button>
-      </div>
-    </div>
-
-    <div class="right">
-      <img src="img/5.jpg">
-    </div>
-  </div>
-</section>
-
-<!--Pastpapers-->
-<section class="container" id="pp">
-  <h2>Past Papers</h2>
-  <div class="streams-container">
-    <!-- Left Column -->
-    <div class="stream-column">
-      <div class="stream">
-        <img src="img/8.png">
-        <h3>Past Papers</h3>
-        <p>Access previous years’ A/L exam papers to practice and understand exam patterns.</p>
-      </div>
-    </div>
-    <!-- Right Column -->
-    <div class="stream-column">
-      <div class="stream">
-        <img src="img/7.png" alt="1">
-        <h3><a href="Commere.html" target="_blank">Model Papers</a></h3>
-        <p>Solve model papers designed to help you prepare effectively and boost exam confidence.</p>
-      </div>
-     </div>
-  </div>
-</section>
-
-<!--Reviews-->
-<section id="rev" class="container" style="gap: 10px;">
-  <h2>Student Reviews</h2><br>
-
-  <div style="display: flex;justify-content: center;" class="reviews-container">
-
-      <div class="review-card">
-          <p class="review-text">“Very helpful!”</p>
-          <div class="review-profile">
-              <img src="img/user.jpg" alt="Suraj">
-              <div>
-                  Suraj Yapa<br>
-                  <span>Student</span>
-              </div>
-          </div>
-      </div>
-
-      <div class="review-card">
-          <p class="review-text">“Easy to understand”</p>
-          <div class="review-profile">
-              <img src="img/user.jpg" alt="Nadeeka">
-              <div>
-                  Nadeeka<br>
-                  <span>Student</span>
-              </div>
-          </div>
-      </div>
-
-      <div class="review-card">
-          <p class="review-text">“Boosted my confidence”</p>
-          <div class="review-profile">
-              <img src="img/user.jpg" alt="Chathura">
-              <div>
-                  Chathura<br>
-                  <span>Student</span>
-              </div>
-          </div>
-      </div>
-
-  </div>
-</section>
-
-<!--About-->
-<section class="us container" id="uss" style="max-width:900px;">
-  <h1>About Us</h1>
-  <p>We are the IIT 19th Batch of<b> Uva Wellassa University</b>, and this website has been created with one clear mission—to support all A/L students across Sri Lanka by providing free, reliable, and easily accessible study materials. During times of crisis and disasters in our country, many students struggle to find proper notes, past papers, and guidance. This platform was built especially for those students, ensuring that learning never stops, no matter the situation.<br><br>
-    This website is not created for making money. It is a service dedicated to helping the next generation achieve their academic goals. We also extend our heartfelt thanks to all note providers, teachers, and contributors who helped make this platform rich with valuable content.<br><br>
-    Through this website, students can access notes for all A/L streams, download past papers, and even explore career guidance to plan their future paths. If you wish to help others, you can also donate study materials by signing up on the site.<br><br>
-    If you need any assistance or have questions, feel free to contact us anytime we are here to help.<br><br>
-    <b><i><h3>“Education is the most powerful tool that can change lives, open doors, and build a brighter future.”</h3></b></i></p>
-</section><br><br>
-
-<!--Footer-->
-<footer>
-  <div class="footer-top">
-    <div>UWU Academy</div>
-    <div class="links">
-      <a href="#">Our University</a>
-      <a href="#">Developers</a>
-      <a href="#">Contact Us</a>
-    </div>
-  </div>
-</footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sri Lanka Travel Guide</h3>
+                    <p>Your comprehensive guide to exploring the beautiful island of Sri Lanka. Discover hidden gems, cultural treasures, and natural wonders.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="culture.html">Culture & Heritage</a></li>
+                        <li><a href="food.html">Local Cuisine</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Travel Info</h3>
+                    <ul>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                        <li><a href="travel-tips.html#best-time">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html#getting-around">Getting Around</a></li>
+                        <li><a href="travel-tips.html#accommodation">Accommodation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Colombo, Sri Lanka</li>
+                        <li><i class="fas fa-phone"></i> +94 11 234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@srilankatravel.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Sri Lanka Travel Guide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
