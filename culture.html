@@ -12,25 +12,26 @@
     <header>
         <div class="container header-content">
             <div class="logo">
-                <i class="fas fa-leaf"></i>
-                <span>Sri Lanka Travel Guide</span>
+                <span class="lognm">CEYLON</span>
+                <img src="img/logo1.png" width="90px">
+                <span class="lognm">COMPASS</span>
             </div>
             
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="destinations.html">Destinations</a></li>
-                    <li><a href="culture.html" class="active">Culture</a></li>
-                    <li><a href="food.html">Food</a></li>
-                    <li><a href="travel-tips.html">Travel Tips</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="destinations.html ">DESTINATIONS</a></li>
+                    <li><a href="culture.html"class="active">CULTURE</a></li>
+                    <li><a href="food.html">FOOD</a></li>
+                    <li><a href="travel-tips.html">TIPS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')">
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/59.png')">
         <div class="container">
             <h1>Sri Lankan Culture & Heritage</h1>
             <p>Discover the rich traditions, arts, and customs that have shaped Sri Lanka for over 2,500 years.</p>
@@ -48,23 +49,60 @@
     <section class="container">
         <h2 class="section-title">Cultural Heritage</h2>
         
+        <!-- Cultural Overview -->
+        <div class="content-section">
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3><i class="fas fa-history" style="color: #1a5f23; margin-right: 10px;"></i> Ancient Roots</h3>
+                        <p>Sri Lanka's culture has evolved over 2,500 years, influenced by Buddhism, Hinduism, colonial powers, and indigenous traditions. The island's strategic location along ancient trade routes brought diverse cultural influences that blended with local practices.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3><i class="fas fa-hands" style="color: #1a5f23; margin-right: 10px;"></i> Living Traditions</h3>
+                        <p>Despite modernization, Sri Lanka preserves its cultural heritage through festivals, rituals, arts, and daily practices. From ancient dance forms to traditional crafts, cultural expressions remain vibrant parts of Sri Lankan life.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3><i class="fas fa-users" style="color: #1a5f23; margin-right: 10px;"></i> Multicultural Society</h3>
+                        <p>Sri Lanka is home to Sinhalese, Tamil, Muslim, and Burgher communities, each contributing unique elements to the national culture while maintaining their distinct traditions and identities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- Religious Heritage -->
         <div class="content-section">
             <h2><i class="fas fa-place-of-worship" style="color: #1a5f23; margin-right: 10px;"></i> Religious Heritage</h2>
             <p>Sri Lanka is a multi-religious country where Buddhism, Hinduism, Islam, and Christianity coexist. Buddhism has the strongest influence on Sri Lankan culture, having been introduced in the 3rd century BCE.</p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Buddhism</h3>
-                    <p>Sri Lanka is one of the world's oldest continuous Buddhist societies. The Temple of the Sacred Tooth Relic in Kandy houses Buddha's tooth and is one of Buddhism's most sacred sites.</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="img/46.jpeg" alt="Traditional Dance" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Buddhism</h3>
+                        <p>Sri Lanka is one of the world's oldest continuous Buddhist societies. The Temple of the Sacred Tooth Relic in Kandy houses Buddha's tooth and is one of Buddhism's most sacred sites.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Hinduism</h3>
-                    <p>Hinduism has a strong presence, especially in the Northern and Eastern provinces. The Nallur Kandaswamy Temple in Jaffna is one of the most significant Hindu temples.</p>
+                
+                <div class="destination-card">
+                    <img src="img/48.jpeg" alt="Traditional Music" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Hinduism</h3>
+                        <p>Hinduism has a strong presence, especially in the Northern and Eastern provinces. The Nallur Kandaswamy Temple in Jaffna is one of the most significant Hindu temples.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Islam & Christianity</h3>
-                    <p>Muslims and Christians have contributed significantly to Sri Lanka's cultural diversity, with beautiful mosques and churches across the island.</p>
+                
+                <div class="destination-card">
+                    <img src="img/44.jpeg" alt="Handicrafts" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Islam & Christianity</h3>
+                        <p>Muslims and Christians have contributed significantly to Sri Lanka's cultural diversity, with beautiful mosques and churches across the island representing centuries of religious harmony.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,51 +110,62 @@
         <!-- Traditional Arts -->
         <div class="content-section">
             <h2><i class="fas fa-palette" style="color: #1a5f23; margin-right: 10px;"></i> Traditional Arts</h2>
-            <p>Sri Lanka has a rich tradition of arts and crafts that have been passed down through generations.</p>
+            <p>Sri Lanka has a rich tradition of arts and crafts that have been passed down through generations, each telling stories of the island's history and beliefs.</p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Dance</h3>
-                    <p>Sri Lankan traditional dance includes Kandyan, Sabaragamuwa, and Low Country styles. Each has distinct costumes, rhythms, and movements, often telling religious or historical stories.</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="img/46.jpeg" alt="Traditional Dance" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Dance Forms</h3>
+                        <p>Sri Lankan traditional dance includes Kandyan, Sabaragamuwa, and Low Country styles. Each has distinct costumes, rhythms, and movements, often telling religious or historical stories through expressive movements.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Music</h3>
-                    <p>Traditional music features instruments like the rabana (drum), thammattama (twin drum), and horanava (oboe). Baila music shows Portuguese influence.</p>
+                
+                <div class="destination-card">
+                    <img src="img/48.jpeg" alt="Traditional Music" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Music & Instruments</h3>
+                        <p>Traditional music features instruments like the rabana (drum), thammattama (twin drum), and horanava (oboe). Baila music shows Portuguese influence and remains popular at celebrations.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Handicrafts</h3>
-                    <p>Wood carving, mask making, lacquer work, and handloom textiles are traditional crafts. Ambalangoda is famous for its intricate wooden masks.</p>
+                
+                <div class="destination-card">
+                    <img src="img/44.jpeg" alt="Handicrafts" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Handicrafts</h3>
+                        <p>Wood carving, mask making, lacquer work, and handloom textiles are traditional crafts. Ambalangoda is famous for its intricate wooden masks used in rituals and performances.</p>
+                    </div>
                 </div>
             </div>
         </div>
         
         <!-- Architecture -->
         <div class="content-section">
-            <h2><i class="fas fa-archway" style="color: #1a5f23; margin-right: 10px;"></i> Architecture</h2>
-            <p>Sri Lanka's architecture reflects its diverse history, from ancient Buddhist stupas to colonial buildings.</p>
+            <h2><i class="fas fa-archway" style="color: #1a5f23; margin-right: 10px;"></i> Architectural Heritage</h2>
+            <p>Sri Lanka's architecture reflects its diverse history, from ancient Buddhist stupas to colonial buildings, showcasing different eras of the island's development.</p>
             
-            <div class="destinations-grid" style="margin-top: 1.5rem;">
+            <div class="destinations-grid">
                 <div class="destination-card">
-                    <img src="https://images.unsplash.com/photo-1578665142664-855e43f6b2d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ancient Architecture" class="destination-img">
+                    <img src="img/49.jpeg" alt="Ancient Architecture" class="destination-img">
                     <div class="destination-info">
                         <h3>Ancient Architecture</h3>
-                        <p>Stupas, palaces, and monastic complexes from Anuradhapura, Polonnaruwa, and Sigiriya periods.</p>
+                        <p>Stupas, palaces, and monastic complexes from Anuradhapura, Polonnaruwa, and Sigiriya periods demonstrate advanced engineering and artistic skills of ancient Sri Lankan civilizations.</p>
                     </div>
                 </div>
                 
                 <div class="destination-card">
-                    <img src="https://images.unsplash.com/photo-1559561735-dc8c3b7f1d1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Colonial Architecture" class="destination-img">
+                    <img src="img/50.jpeg" alt="Colonial Architecture" class="destination-img">
                     <div class="destination-info">
                         <h3>Colonial Architecture</h3>
-                        <p>Portuguese, Dutch, and British influences visible in forts, churches, and government buildings.</p>
+                        <p>Portuguese, Dutch, and British influences visible in forts, churches, and government buildings, particularly in coastal cities like Galle and Colombo.</p>
                     </div>
                 </div>
                 
                 <div class="destination-card">
-                    <img src="https://images.unsplash.com/photo-1593693399746-5f4d179d7c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Traditional Architecture" class="destination-img">
+                    <img src="img/51.jpeg" alt="Traditional Architecture" class="destination-img">
                     <div class="destination-info">
                         <h3>Traditional Architecture</h3>
-                        <p>Vernacular styles using local materials like wood, clay, and thatch, adapted to tropical climate.</p>
+                        <p>Vernacular styles using local materials like wood, clay, and thatch, adapted to tropical climate with features like courtyards and verandas for natural cooling.</p>
                     </div>
                 </div>
             </div>
@@ -124,19 +173,30 @@
         
         <!-- Festivals -->
         <div class="content-section">
-            <h2><i class="fas fa-calendar-alt" style="color: #1a5f23; margin-right: 10px;"></i> Festivals</h2>
-            <p>Sri Lanka celebrates numerous festivals throughout the year, reflecting its multi-ethnic and multi-religious society.</p>
+            <h2><i class="fas fa-calendar-alt" style="color: #1a5f23; margin-right: 10px;"></i> Festivals & Celebrations</h2>
+            <p>Sri Lanka celebrates numerous festivals throughout the year, reflecting its multi-ethnic and multi-religious society with vibrant colors, music, and traditions.</p>
             
-            <div style="margin-top: 1.5rem;">
-                <h3>Major Festivals</h3>
-                <ul>
-                    <li><strong>Vesak (May):</strong> Celebrates Buddha's birth, enlightenment, and passing. Streets are decorated with lanterns and pandals.</li>
-                    <li><strong>Esala Perahera (July/August):</strong> Kandy's spectacular procession with dancers, drummers, and decorated elephants.</li>
-                    <li><strong>Thai Pongal (January):</strong> Hindu harvest festival giving thanks to the sun god.</li>
-                    <li><strong>Ramadan & Eid:</strong> Muslim holy month followed by festive celebrations.</li>
-                    <li><strong>Christmas (December):</strong> Celebrated by Christians across the island.</li>
-                    <li><strong>Sinhala & Tamil New Year (April):</strong> The most important national festival with traditional games, food, and rituals.</li>
-                </ul>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Vesak (May)</h3>
+                        <p>Celebrates Buddha's birth, enlightenment, and passing. Streets are decorated with lanterns and pandals depicting stories from Buddha's life.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Esala Perahera (July/August)</h3>
+                        <p>Kandy's spectacular procession with dancers, drummers, and decorated elephants, honoring the Sacred Tooth Relic.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Sinhala & Tamil New Year (April)</h3>
+                        <p>The most important national festival with traditional games, food, rituals, and family gatherings marking the solar new year.</p>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -145,18 +205,26 @@
             <h2><i class="fas fa-hands-helping" style="color: #1a5f23; margin-right: 10px;"></i> Customs & Etiquette</h2>
             <p>Understanding local customs will enhance your experience in Sri Lanka and show respect for the culture.</p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Greetings</h3>
-                    <p>The traditional greeting is "Ayubowan" (may you live long) with palms pressed together. Handshakes are common in business settings.</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Greetings & Respect</h3>
+                        <p>The traditional greeting is "Ayubowan" (may you live long) with palms pressed together. Handshakes are common in business settings. Always use your right hand for giving and receiving.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Temple Etiquette</h3>
-                    <p>Remove shoes and hats before entering religious sites. Dress modestly (shoulders and knees covered). Don't pose with your back to Buddha statues.</p>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Temple Etiquette</h3>
+                        <p>Remove shoes and hats before entering religious sites. Dress modestly (shoulders and knees covered). Don't pose with your back to Buddha statues and maintain respectful behavior.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>General Etiquette</h3>
-                    <p>Use your right hand for eating and giving/receiving items. Avoid touching people's heads. Public displays of affection are frowned upon.</p>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Social Customs</h3>
+                        <p>Avoid touching people's heads (considered sacred). Public displays of affection are frowned upon. Remove shoes before entering homes and address elders with respect.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -164,19 +232,29 @@
         <!-- UNESCO World Heritage Sites -->
         <div class="content-section">
             <h2><i class="fas fa-landmark" style="color: #1a5f23; margin-right: 10px;"></i> UNESCO World Heritage Sites</h2>
-            <p>Sri Lanka has eight UNESCO World Heritage Sites that showcase its rich cultural and natural heritage.</p>
+            <p>Sri Lanka has eight UNESCO World Heritage Sites that showcase its rich cultural and natural heritage, recognized for their outstanding universal value.</p>
             
-            <div style="margin-top: 1.5rem;">
-                <ul>
-                    <li><strong>Ancient City of Polonnaruwa</strong> - Medieval capital with well-preserved ruins</li>
-                    <li><strong>Ancient City of Sigiriya</strong> - 5th-century rock fortress with frescoes</li>
-                    <li><strong>Sacred City of Anuradhapura</strong> - Ancient capital and Buddhist pilgrimage site</li>
-                    <li><strong>Sacred City of Kandy</strong> - Last royal capital and home to the Temple of the Tooth</li>
-                    <li><strong>Old Town of Galle and its Fortifications</strong> - Best-preserved colonial fort in Asia</li>
-                    <li><strong>Golden Temple of Dambulla</strong> - Cave temple complex with Buddha statues</li>
-                    <li><strong>Sinharaja Forest Reserve</strong> - Biodiversity hotspot with endemic species</li>
-                    <li><strong>Central Highlands of Sri Lanka</strong> - Protected area including Horton Plains and Peak Wilderness</li>
-                </ul>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Cultural Triangle</h3>
+                        <p>Includes Ancient Cities of Polonnaruwa, Sigiriya, Anuradhapura, Sacred City of Kandy, and Golden Temple of Dambulla - representing the heart of ancient Sri Lankan civilization.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Colonial Heritage</h3>
+                        <p>Old Town of Galle and its Fortifications represent the best-preserved colonial fort in Asia, showcasing European architectural influences.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Natural Heritage</h3>
+                        <p>Sinharaja Forest Reserve and Central Highlands protect unique ecosystems with high biodiversity and endemic species found nowhere else on Earth.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -12,25 +12,26 @@
     <header>
         <div class="container header-content">
             <div class="logo">
-                <i class="fas fa-leaf"></i>
-                <span>Sri Lanka Travel Guide</span>
+                <span class="lognm">CEYLON</span>
+                <img src="img/logo1.png" width="90px">
+                <span class="lognm">COMPASS</span>
             </div>
             
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="destinations.html">Destinations</a></li>
-                    <li><a href="culture.html">Culture</a></li>
-                    <li><a href="food.html">Food</a></li>
-                    <li><a href="travel-tips.html">Travel Tips</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="destinations.html ">DESTINATIONS</a></li>
+                    <li><a href="culture.html">CULTURE</a></li>
+                    <li><a href="food.html">FOOD</a></li>
+                    <li><a href="travel-tips.html">TIPS</a></li>
+                    <li><a href="contact.html"class="active">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1593693399746-5f4d179d7c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')">
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/68.png')">
         <div class="container">
             <h1>Contact Us</h1>
             <p>Have questions about traveling to Sri Lanka? Get in touch with our team for personalized advice and travel recommendations.</p>
@@ -54,30 +55,93 @@
                 <h2>Send Us a Message</h2>
                 <form>
                     <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
                     </div>
                     
                     <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email address">
                     </div>
                     
                     <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <select id="subject" name="subject">
-                            <option value="general">General Inquiry</option>
-                            <option value="itinerary">Itinerary Planning</option>
-                            <option value="accommodation">Accommodation Advice</option>
-                            <option value="transport">Transportation</option>
-                            <option value="other">Other</option>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number with country code">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">Country of Residence</label>
+                        <input type="text" id="country" name="country" placeholder="Where are you from?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="trip-date">Planned Trip Dates</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <input type="date" id="arrival" name="arrival" placeholder="Arrival date">
+                            <input type="date" id="departure" name="departure" placeholder="Departure date">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="travelers">Number of Travelers</label>
+                        <select id="travelers" name="travelers">
+                            <option value="">Select number of travelers</option>
+                            <option value="1">1 (Solo Traveler)</option>
+                            <option value="2">2 (Couple)</option>
+                            <option value="3-4">3-4 (Small Group/Family)</option>
+                            <option value="5-10">5-10 (Medium Group)</option>
+                            <option value="10+">10+ (Large Group)</option>
                         </select>
                     </div>
                     
                     <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" required></textarea>
+                        <label for="accommodation">Preferred Accommodation Type</label>
+                        <select id="accommodation" name="accommodation">
+                            <option value="">Select accommodation type</option>
+                            <option value="budget">Budget (Guesthouses/Hostels)</option>
+                            <option value="mid-range">Mid-range (Boutique Hotels)</option>
+                            <option value="luxury">Luxury (Resorts/Villas)</option>
+                            <option value="eco">Eco-friendly Lodges</option>
+                            <option value="mix">Mix of different types</option>
+                        </select>
                     </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Inquiry Type *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select inquiry type</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="itinerary">Custom Itinerary Planning</option>
+                            <option value="accommodation">Accommodation Booking Assistance</option>
+                            <option value="transport">Transportation Arrangements</option>
+                            <option value="guides">Tour Guide Services</option>
+                            <option value="group">Group Tour Inquiry</option>
+                            <option value="honeymoon">Honeymoon/Special Occasion</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    
+                    
+                    <div class="form-group">
+                        <label for="budget">Approximate Budget (per person)</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget range</option>
+                            <option value="under-1000">Under $1,000</option>
+                            <option value="1000-2000">$1,000 - $2,000</option>
+                            <option value="2000-3000">$2,000 - $3,000</option>
+                            <option value="3000-5000">$3,000 - $5,000</option>
+                            <option value="5000+">$5,000+</option>
+                            <option value="flexible">Flexible/Luxury</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" required placeholder="Tell us about your travel plans, specific interests, questions, or any special requirements..."></textarea>
+                    </div>
+                    
+                    
                     
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
@@ -129,6 +193,20 @@
                     </div>
                 </div>
                 
+                <!-- Emergency Contact -->
+                <div class="content-section" style="margin-top: 2rem; background-color: #fff8e1; border-left: 4px solid #ffc107;">
+                    <h2><i class="fas fa-exclamation-triangle" style="color: #ff9800; margin-right: 10px;"></i> Emergency Contact</h2>
+                    
+                    <div style="margin-top: 1rem;">
+                        <p>For urgent assistance during your trip in Sri Lanka:</p>
+                        <div style="background-color: #fff3cd; padding: 15px; border-radius: 5px; margin-top: 10px;">
+                            <p><strong>24/7 Emergency Hotline:</strong> +94 77 911 9119</p>
+                            <p><strong>Tourist Police:</strong> 1912 or +94 11 242 1052</p>
+                            <p><strong>Ambulance:</strong> 1990</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- Social Media -->
                 <div class="content-section" style="margin-top: 2rem;">
                     <h2><i class="fas fa-share-alt" style="color: #1a5f23; margin-right: 10px;"></i> Connect With Us</h2>
@@ -145,6 +223,19 @@
                             <a href="#" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Response Time Info -->
+        <div class="content-section" style="background-color: #e8f5e9; margin-bottom: 2rem;">
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <div style="font-size: 3rem; color: #1a5f23;">
+                    <i class="fas fa-business-time"></i>
+                </div>
+                <div>
+                    <h3>Our Response Time</h3>
+                    <p>We strive to respond to all inquiries within <strong>24 hours</strong> on business days. For custom itinerary requests, we typically provide initial proposals within <strong>2-3 business days</strong>. Urgent inquiries will be prioritized.</p>
                 </div>
             </div>
         </div>

@@ -12,18 +12,19 @@
     <header>
         <div class="container header-content">
             <div class="logo">
-                <i class="fas fa-leaf"></i>
-                <span>Sri Lanka Travel Guide</span>
+                <span class="lognm">CEYLON</span>
+                <img src="img/logo1.png" width="90px">
+                <span class="lognm">COMPASS</span>
             </div>
             
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="destinations.html">Destinations</a></li>
-                    <li><a href="culture.html">Culture</a></li>
-                    <li><a href="food.html" class="active">Food</a></li>
-                    <li><a href="travel-tips.html">Travel Tips</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="destinations.html ">DESTINATIONS</a></li>
+                    <li><a href="culture.html">CULTURE</a></li>
+                    <li><a href="food.html"class="active">FOOD</a></li>
+                    <li><a href="travel-tips.html">TIPS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -48,30 +49,60 @@
     <section class="container">
         <h2 class="section-title">Must-Try Sri Lankan Food</h2>
         
+        <!-- Sri Lankan Food Overview -->
+        <div class="content-section">
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3><i class="fas fa-pepper-hot" style="color: #1a5f23; margin-right: 10px;"></i> Spicy & Flavorful</h3>
+                        <p>Sri Lankan cuisine is known for its bold flavors, aromatic spices, and generous use of coconut. Dishes often feature complex spice blends that create unforgettable taste experiences.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3><i class="fas fa-utensils" style="color: #1a5f23; margin-right: 10px;"></i> Rice & Curry Tradition</h3>
+                        <p>The cornerstone of Sri Lankan meals is rice served with an array of curries, sambols, and accompaniments. Each meal is a balanced combination of flavors, textures, and colors.</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3><i class="fas fa-fish" style="color: #1a5f23; margin-right: 10px;"></i> Coastal Delights</h3>
+                        <p>With its long coastline, Sri Lanka offers exceptional seafood prepared with local spices and coconut. From spicy crab curry to fresh grilled fish, coastal cuisine is a highlight.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- Rice & Curry -->
         <div class="content-section">
             <h2><i class="fas fa-utensils" style="color: #1a5f23; margin-right: 10px;"></i> Rice & Curry</h2>
-            <p>The cornerstone of Sri Lankan cuisine. A typical meal includes rice served with several different curries, sambols, and accompaniments.</p>
+            <p>The cornerstone of Sri Lankan cuisine. A typical meal includes rice served with several different curries, sambols, and accompaniments that create a perfect balance of flavors.</p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Main Curries</h3>
-                    <ul>
-                        <li><strong>Chicken Curry:</strong> Spicy curry with coconut milk</li>
-                        <li><strong>Fish Curry:</strong> Often made with tuna or seer fish</li>
-                        <li><strong>Dhal Curry:</strong> Lentil curry, a staple at every meal</li>
-                        <li><strong>Potato Curry:</strong> Mild curry popular with everyone</li>
-                        <li><strong>Jackfruit Curry:</strong> Vegetarian option when in season</li>
-                    </ul>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="img/57.jpeg" alt="Rice and Curry" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Main Curries</h3>
+                        <p>Chicken curry with coconut milk, fish curry with local tuna, dhal (lentil) curry, potato curry, and seasonal vegetable curries like jackfruit.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Sambols & Accompaniments</h3>
-                    <ul>
-                        <li><strong>Pol Sambol:</strong> Spicy coconut relish</li>
-                        <li><strong>Gotu Kola Sambol:</strong> Herb and coconut salad</li>
-                        <li><strong>Papadam:</strong> Crispy lentil crackers</li>
-                        <li><strong>Pickles:</strong> Various fruit and vegetable pickles</li>
-                    </ul>
+                
+                <div class="destination-card">
+                    <img src="img/52.jpg" alt="Sambols" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Sambols & Accompaniments</h3>
+                        <p>Pol sambol (spicy coconut relish), gotu kola sambol (herb salad), papadam (crispy lentil crackers), and various fruit and vegetable pickles.</p>
+                    </div>
+                </div>
+                
+                <div >
+                    <div class="destination-info">
+                        <h3>Meal Experience</h3>
+                        <p>Traditionally served on a banana leaf with rice at the center surrounded by small bowls of curries, sambols, and chutneys. Meals are often eaten with the right hand, mixing rice with various curries to create perfect flavor combinations.</p>
+                        <p><strong>Typical Components:</strong> Steamed rice, 2-3 meat/fish curries, 2 vegetable curries, dhal, sambol, papadam, pickle, and sometimes a dessert.</p>
+                        <p><strong>Regional Variations:</strong> Coastal areas emphasize seafood, hill country features vegetable-based dishes, and different communities have their own spice blends and preparation methods.</p>                    </div>
                 </div>
             </div>
         </div>
@@ -79,82 +110,95 @@
         <!-- Street Food -->
         <div class="content-section">
             <h2><i class="fas fa-utensil-spoon" style="color: #1a5f23; margin-right: 10px;"></i> Street Food & Snacks</h2>
-            <p>Sri Lanka has a vibrant street food culture with delicious and affordable options available throughout the day.</p>
+            <p>Sri Lanka has a vibrant street food culture with delicious and affordable options available throughout the day from roadside stalls and local eateries.</p>
             
-            <div class="destinations-grid" style="margin-top: 1.5rem;">
+            <div class="destinations-grid">
                 <div class="destination-card">
-                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Hoppers" class="destination-img">
+                    <img src="img/41.jpg" alt="Hoppers" class="destination-img">
                     <div class="destination-info">
                         <h3>Hoppers (Appa)</h3>
-                        <p>Bowl-shaped pancakes made from fermented rice flour and coconut milk. Often served with an egg in the center (egg hopper).</p>
+                        <p>Bowl-shaped pancakes made from fermented rice flour and coconut milk. Often served with an egg in the center (egg hopper) and spicy sambol for breakfast or dinner.</p>
                     </div>
                 </div>
                 
                 <div class="destination-card">
-                    <img src="https://images.unsplash.com/photo-1563379091339-03246963d9d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kottu" class="destination-img">
+                    <img src="img/45.jpg" alt="Kottu" class="destination-img">
                     <div class="destination-info">
                         <h3>Kottu Roti</h3>
-                        <p>Chopped roti stir-fried with vegetables, egg, and/or meat, cooked on a hot griddle with rhythmic clacking sounds.</p>
+                        <p>Chopped roti stir-fried with vegetables, egg, and/or meat, cooked on a hot griddle with rhythmic clacking sounds. A popular street food available day and night.</p>
                     </div>
                 </div>
                 
                 <div class="destination-card">
-                    <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Short Eats" class="destination-img">
+                    <img src="img/55.jpeg" alt="Short Eats" class="destination-img">
                     <div class="destination-info">
                         <h3>Short Eats</h3>
-                        <p>Various savory pastries and snacks like samosas, rolls, and patties filled with meat, fish, or vegetables.</p>
+                        <p>Various savory pastries and snacks like samosas, rolls, patties, and cutlets filled with meat, fish, or vegetables. Perfect for tea time or quick bites.</p>
                     </div>
                 </div>
             </div>
         </div>
         
         <!-- Seafood -->
-        <div class="content-section">
-            <h2><i class="fas fa-fish" style="color: #1a5f23; margin-right: 10px;"></i> Seafood</h2>
-            <p>With its long coastline, Sri Lanka offers excellent seafood, especially in coastal areas like Negombo, Galle, and Trincomalee.</p>
-            
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Popular Seafood Dishes</h3>
-                    <ul>
-                        <li><strong>Ambul Thiyal:</strong> Sour fish curry unique to southern Sri Lanka</li>
-                        <li><strong>Prawn Curry:</strong> Fresh prawns in spicy coconut gravy</li>
-                        <li><strong>Crab Curry:</strong> Especially popular in Negombo</li>
-                        <li><strong>Fried Sprats:</strong> Small fish fried until crispy</li>
-                        <li><strong>Lobster:</strong> Grilled or in curry, a coastal delicacy</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Where to Find</h3>
-                    <ul>
-                        <li><strong>Negombo:</strong> Known as "Little Rome" for its seafood</li>
-                        <li><strong>Galle:</strong> Beachfront restaurants with fresh catch</li>
-                        <li><strong>Trincomalee:</strong> Especially good for crab</li>
-                        <li><strong>Local Markets:</strong> For the freshest selection</li>
-                    </ul>
+               <!-- Seafood -->
+               <div class="content-section">
+                <h2><i class="fas fa-fish" style="color: #1a5f23; margin-right: 10px;"></i> Seafood Specialties</h2>
+                <p>With its long coastline, Sri Lanka offers excellent seafood, especially in coastal areas like Negombo, Galle, and Trincomalee.</p>
+                
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <img src="img/33.jpg" alt="Seafood" class="destination-img">
+                        <div class="destination-info">
+                            <h3>Coastal Delicacies</h3>
+                            <p>Ambul thiyal (sour fish curry), prawn curry in coconut gravy, crab curry, fried sprats, and fresh lobster prepared with local spices.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-card">
+                        <img src="img/60.png" alt="Grilled Seafood" class="destination-img">
+                        <div class="destination-info">
+                            <h3>Grilled Seafood</h3>
+                            <p>Fresh fish, prawns, and squid grilled with local spices and served with lime and sambol. A popular beachside treat found along coastal areas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-card">
+                        <img src="img/61.png" alt="Seafood Street Food" class="destination-img">
+                        <div class="destination-info">
+                            <h3>Seafood Street Food</h3>
+                            <p>Fried fish patties, seafood rolls, and grilled prawns from street vendors. Perfect quick bites enjoyed by locals and tourists alike.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         
         <!-- Desserts & Sweets -->
         <div class="content-section">
             <h2><i class="fas fa-ice-cream" style="color: #1a5f23; margin-right: 10px;"></i> Desserts & Sweets</h2>
-            <p>Sri Lankan desserts often feature coconut, jaggery (palm sugar), rice flour, and treacle.</p>
+            <p>Sri Lankan desserts often feature coconut, jaggery (palm sugar), rice flour, and treacle, creating unique sweet treats for celebrations and daily enjoyment.</p>
             
-            <div style="margin-top: 1.5rem;">
-                <h3>Traditional Sweets</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-                    <div>
-                        <h4>Kiribath</h4>
-                        <p>Milk rice cooked with coconut milk, traditionally served for breakfast on special occasions and festivals.</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="img/43.jpg" alt="Kiribath" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Kiribath</h3>
+                        <p>Milk rice cooked with coconut milk, traditionally served for breakfast on special occasions and festivals like the Sinhala New Year.</p>
                     </div>
-                    <div>
-                        <h4>Watalappan</h4>
-                        <p>Steamed coconut custard pudding with jaggery and spices like cardamom and nutmeg.</p>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="img/32.jpg" alt="Watalappan" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Watalappan</h3>
+                        <p>Steamed coconut custard pudding with jaggery and spices like cardamom and nutmeg. A rich dessert with Malay influences, often served during Ramadan.</p>
                     </div>
-                    <div>
-                        <h4>Kevum</h4>
-                        <p>Oil cakes made from rice flour and treacle, especially popular during the New Year.</p>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="img/58.jpg" alt="Kevum" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Traditional Sweets</h3>
+                        <p>Kevum (oil cakes), kokis (crispy cookies), aluwa (diamond-shaped sweets), and other traditional treats especially popular during festive seasons.</p>
                     </div>
                 </div>
             </div>
@@ -162,96 +206,120 @@
         
         <!-- Drinks -->
         <div class="content-section">
-            <h2><i class="fas fa-glass-whiskey" style="color: #1a5f23; margin-right: 10px;"></i> Drinks</h2>
-            <p>From world-famous tea to refreshing local beverages, Sri Lanka offers a variety of drinks to complement its cuisine.</p>
+            <h2><i class="fas fa-glass-whiskey" style="color: #1a5f23; margin-right: 10px;"></i> Beverages</h2>
+            <p>From world-famous tea to refreshing local beverages, Sri Lanka offers a variety of drinks to complement its cuisine and refresh in the tropical climate.</p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Ceylon Tea</h3>
-                    <p>Sri Lanka is one of the world's largest tea producers. Try different varieties like Dimbula, Nuwara Eliya, and Uva.</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="img/46.jpg" alt="Ceylon Tea" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Ceylon Tea</h3>
+                        <p>Sri Lanka is one of the world's largest tea producers. Try different varieties like Dimbula, Nuwara Eliya, and Uva, each with unique flavors from different elevations.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>King Coconut Water</h3>
-                    <p>Refreshing natural drink from king coconuts, sold by roadside vendors throughout the country.</p>
+                
+                <div class="destination-card">
+                    <img src="img/48.jpg" alt="King Coconut" class="destination-img">
+                    <div class="destination-info">
+                        <h3>King Coconut Water</h3>
+                        <p>Refreshing natural drink from king coconuts (thambili), sold by roadside vendors throughout the country. A healthy, hydrating beverage perfect for hot days.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Wood Apple Juice</h3>
-                    <p>Unique local fruit with a distinctive flavor, often mixed with sugar and spices.</p>
+                
+                <div class="destination-card">
+                    <img src="img/34.jpg" alt="Wood Apple Juice" class="destination-img">
+                    <div class="destination-info">
+                        <h3>Traditional Drinks</h3>
+                        <p>Wood apple juice, ginger beer, faluda (sweet rose-flavored drink), and various fruit juices made from tropical fruits like mango, pineapple, and papaya.</p>
+                    </div>
                 </div>
             </div>
         </div>
         
         <!-- Spices -->
-        <div class="content-section">
-            <h2><i class="fas fa-pepper-hot" style="color: #1a5f23; margin-right: 10px;"></i> Spices of Sri Lanka</h2>
-            <p>Sri Lanka has been famous for its spices since ancient times. Many dishes get their distinctive flavor from these spices.</p>
-            
-            <div style="margin-top: 1.5rem;">
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; text-align: center;">
-                    <div>
-                        <h4>Cinnamon</h4>
-                        <p>Sri Lanka produces 80-90% of the world's true cinnamon</p>
-                    </div>
-                    <div>
-                        <h4>Cardamom</h4>
-                        <p>Used in both savory dishes and desserts</p>
-                    </div>
-                    <div>
-                        <h4>Cloves</h4>
-                        <p>Adds warmth to meat dishes and curries</p>
-                    </div>
-                    <div>
-                        <h4>Pepper</h4>
-                        <p>Known as "black gold" in ancient times</p>
-                    </div>
-                    <div>
-                        <h4>Turmeric</h4>
-                        <p>Adds color and health benefits to dishes</p>
-                    </div>
-                    <div>
-                        <h4>Curry Leaves</h4>
-                        <p>Essential for authentic Sri Lankan flavor</p>
+                
+                <div class="content-section">
+                    <h2><i class="fas fa-pepper-hot" style="color: #1a5f23; margin-right: 10px;"></i> Spices of Sri Lanka</h2>
+                    <p>Sri Lanka has been famous for its spices since ancient times. Many dishes get their distinctive flavor from these aromatic ingredients grown in the island's fertile soil.</p>
+                    
+                    <div class="destinations-grid">
+                        <div class="destination-card">
+                            <img src="img/62.png" alt="Cinnamon" class="destination-img">
+                            <div class="destination-info">
+                                <h3>Cinnamon</h3>
+                                <p>Sri Lanka produces 80-90% of the world's true cinnamon (Ceylon cinnamon), known for its delicate, sweet flavor compared to the more common cassia cinnamon.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="destination-card">
+                            <img src="img/63.png" alt="Spice Blends" class="destination-img">
+                            <div class="destination-info">
+                                <h3>Curry Leaves & Spices</h3>
+                                <p>Essential for authentic Sri Lankan flavor. Common spices include cardamom, cloves, pepper (once called "black gold"), turmeric, and cumin.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="destination-card">
+                            <img src="img/49.jpg" alt="Spice Gardens" class="destination-img">
+                            <div class="destination-info">
+                                <h3>Spice Gardens</h3>
+                                <p>Visit spice gardens to see how spices are grown and learn about their culinary and medicinal uses. Many offer cooking demonstrations and spice purchases.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
         <!-- Where to Eat -->
         <div class="content-section">
             <h2><i class="fas fa-map-signs" style="color: #1a5f23; margin-right: 10px;"></i> Where to Eat</h2>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Local Restaurants</h3>
-                    <p>Small family-run establishments offering authentic home-style cooking at reasonable prices.</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Local Restaurants</h3>
+                        <p>Small family-run establishments offering authentic home-style cooking at reasonable prices. Look for places busy with locals for the best experience.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Hotel Buffets</h3>
-                    <p>Great way to sample a wide variety of Sri Lankan dishes, especially for first-time visitors.</p>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Hotel Buffets</h3>
+                        <p>Great way to sample a wide variety of Sri Lankan dishes, especially for first-time visitors. Many hotels offer extensive buffet spreads with local specialties.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Cooking Classes</h3>
-                    <p>Learn to prepare Sri Lankan dishes yourself. Available in major tourist areas.</p>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Cooking Classes</h3>
+                        <p>Learn to prepare Sri Lankan dishes yourself. Available in major tourist areas, these classes often include market visits and hands-on cooking sessions.</p>
+                    </div>
                 </div>
             </div>
         </div>
         
         <!-- Dietary Considerations -->
         <div class="content-section">
-            <h2><i class="fas fa-info-circle" style="color: #1a5f23; margin-right: 10px;"></i> Dietary Considerations</h2>
+            <h2><i class="fas fa-info-circle" style="color: #1a5f23; margin-right: 10px;"></i> Dietary Tips</h2>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
-                <div>
-                    <h3>Vegetarian Options</h3>
-                    <p>Plenty of vegetarian dishes available. Many Sri Lankans eat vegetarian on poya (full moon) days.</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Vegetarian Options</h3>
+                        <p>Plenty of vegetarian dishes available. Many Sri Lankans eat vegetarian on poya (full moon) days, so most restaurants offer good vegetarian selections.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Spice Levels</h3>
-                    <p>Food can be very spicy. Ask for "less spicy" if you're not accustomed to heat.</p>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Spice Levels</h3>
+                        <p>Food can be very spicy. Ask for "less spicy" or "mild" if you're not accustomed to heat. Many restaurants can adjust spice levels to suit your preference.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Food Safety</h3>
-                    <p>Stick to busy restaurants with high turnover. Drink bottled water and avoid uncooked vegetables.</p>
+                
+                <div class="destination-card">
+                    <div class="destination-info">
+                        <h3>Food Safety</h3>
+                        <p>Stick to busy restaurants with high turnover. Drink bottled or boiled water and avoid uncooked vegetables and peeled fruits from street vendors.</p>
+                    </div>
                 </div>
             </div>
         </div>
