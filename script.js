@@ -1,9 +1,5 @@
-// script.js
-// Simple animations for Sri Lanka Travel Guide
-
-// 1. Smooth scroll for navigation links
 document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scroll for anchor links
+    // 1. Smooth scroll for navigation links
     const navLinks = document.querySelectorAll('nav a[href^="#"]');
     
     navLinks.forEach(link => {
@@ -22,36 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // 2. Form submission animation
-    const contactForm = document.querySelector('.contact-form form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            const submitBtn = this.querySelector('.submit-btn');
-            const originalText = submitBtn.textContent;
-            
-            // Animation: button feedback
-            submitBtn.textContent = 'Sending...';
-            submitBtn.style.backgroundColor = '#2e7d32';
-            submitBtn.disabled = true;
-            
-            // Simulate form submission (in real implementation, this would be AJAX)
-            setTimeout(() => {
-                submitBtn.textContent = 'Message Sent!';
-                submitBtn.style.backgroundColor = '#4caf50';
-                
-                // Reset after 3 seconds
-                setTimeout(() => {
-                    submitBtn.textContent = originalText;
-                    submitBtn.style.backgroundColor = '';
-                    submitBtn.disabled = false;
-                }, 3000);
-            }, 1500);
-            
-            e.preventDefault(); // Remove this in production
-        });
-    }
-    
-    // 3. Destination card hover enhancement
+    // 2. Destination card hover enhancement
     const destinationCards = document.querySelectorAll('.destination-card');
     destinationCards.forEach(card => {
         card.addEventListener('mouseenter', function() {
@@ -63,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // 4. Back to top button
+    // 3. Back to top button
     const backToTop = document.createElement('button');
     backToTop.innerHTML = '<i class="fas fa-chevron-up"></i>';
     backToTop.className = 'back-to-top';
@@ -93,59 +60,36 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // 5. Newsletter subscription animation
-    const newsletterForm = document.querySelector('.newsletter-form');
-    if (newsletterForm) {
-        newsletterForm.addEventListener('submit', function(e) {
-            const input = this.querySelector('input[type="email"]');
-            const button = this.querySelector('button[type="submit"]');
-            
-            if (input.value) {
-                const originalText = button.textContent;
-                button.textContent = 'Subscribed!';
-                button.style.backgroundColor = '#4caf50';
-                
-                setTimeout(() => {
-                    button.textContent = originalText;
-                    button.style.backgroundColor = '';
-                    input.value = '';
-                }, 2000);
-            }
-            
-            e.preventDefault();
-        });
-    }
-});
-
-// 6. Parallax effect for hero sections
-window.addEventListener('scroll', function() {
-    const heroSection = document.querySelector('.hero');
-    if (heroSection) {
-        const scrolled = window.pageYOffset;
-        const rate = scrolled * -0.5;
-        heroSection.style.backgroundPosition = `center ${rate}px`;
-    }
-});
-
-// 7. Active navigation highlighting
-window.addEventListener('scroll', function() {
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('nav a');
-    
-    let current = '';
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop - 100;
-        const sectionHeight = section.clientHeight;
-        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-            current = section.getAttribute('id');
+    // 4. Parallax effect for hero sections
+    window.addEventListener('scroll', function() {
+        const heroSection = document.querySelector('.hero');
+        if (heroSection) {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            heroSection.style.backgroundPosition = `center ${rate}px`;
         }
     });
     
-    navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${current}` || 
-            link.getAttribute('href').includes(current)) {
-            link.classList.add('active');
-        }
+    // 5. Active navigation highlighting
+    window.addEventListener('scroll', function() {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav a');
+        
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 100;
+            const sectionHeight = section.clientHeight;
+            if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}` || 
+                link.getAttribute('href').includes(current)) {
+                link.classList.add('active');
+            }
+        });
     });
 });
